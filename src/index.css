@@ -1,0 +1,84 @@
+.startButton,.restartButton{
+  height: 45px;
+  width: 90px;
+  text-align: center;
+  font-size: larger;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  margin-left: 13%;
+  cursor: pointer;
+}
+.restartButton{
+  width: 130px;
+  margin-left:0%
+}
+.userName{
+  height: 45px;
+  width: 300px;
+  margin: 3% 0%;
+  border:groove;
+  font-size: large;
+  background-color: black;
+  color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.startArea{
+  background-image: url('C:\Users\Administrator\Documents\react vhitech\uno-main-dev\src\Asserts\download.jpeg');
+  background-repeat: no-repeat;
+  height: 34.7rem;
+  background-size: cover;
+}
+.gameDetails{
+  padding:5% 0% 0% 40%;
+}
+.scoreArea{
+  background-image: url('C:\Users\Administrator\Documents\react vhitech\uno-main-dev\src\Asserts\download (1).jpeg');
+  background-repeat: no-repeat;
+  height: 34.7rem;
+  background-size: cover;
+}
+.GameArea{
+  background-color: #e76c24;
+  height: 100%;
+  padding-bottom: 2%;
+}
+.cards{
+display: inline-flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+font-size: xxx-large;
+color: white;
+font-weight: bolder;
+border: double 5px;
+height:200px;
+width:120px
+}
+.DiscardArea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0%;
+}
+.cpuArea,.playerArea{display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.unocard{
+  margin: 0% 3%;
+}
+.scoreBoard{
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  color:  white;
+}
+.scoreBoard h1{
+  padding: 0%;
+  background-color: black;
+}
